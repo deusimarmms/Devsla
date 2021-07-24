@@ -1,0 +1,27 @@
+/* BODY */
+body{
+    font-family: 'GothanMedium',Helvetica,Arial;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* HEADER */
+header ul, header li{
+    list-style-type: none;
+    
+}
+
+
+/* MAIN */
+main{
+    height: 100vh;
+}
+main h1{
+    margin: 0;
+}
+main h2{
+    margin: 0;
+}
+.middle ul  a , .rightside ul a{
+    text-decoration: none;
+}

@@ -1,0 +1,64 @@
+
+
+/****************LEFT-SIDE************************************/
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+header .logo{
+    width: 120px;
+    margin-left: 20px;
+}
+/****************MIDDLE************************************/
+header .middle ul{
+ display: flex;
+}
+
+header .middle li{
+    margin: 0 10px;
+}
+header .middle a{
+    color: var(--header-color);
+    text-transform: uppercase;
+}
+
+/****************RIGHT-SIDE************************************/
+header .rightside ul{
+    display: flex;
+    
+}
+header .rightside li{
+    margin: 0 10px;
+}
+
+header .rightside a{
+    text-transform: uppercase;
+    color: var(--header-color)
+}
+
+
+/****************HEADER MENU ICON************************************/
+
+header .menu--icon{
+    width: 18px;
+    height: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+header .menu--icon div{
+    height: 2px;
+    background-color: var(--header-color);
+}
